@@ -5,7 +5,9 @@
 ## تصاویر :
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|![login](https://github.com/user-attachments/assets/c6368846-e74a-44a0-afde-2e292d52d069)|![new-invoice](https://github.com/user-attachments/assets/00f85e4b-b1c8-4721-8b97-c973178e2594)|![reports](https://github.com/user-attachments/assets/ba87ad02-11d5-4a7d-967c-fefe53b69998)|
+|![login](https://github.com/user-attachments/assets/c6368846-e74a-44a0-afde-2e292d52d069) test|![new-invoice](https://github.com/user-attachments/assets/00f85e4b-b1c8-4721-8b97-c973178e2594)|![reports](https://github.com/user-attachments/assets/ba87ad02-11d5-4a7d-967c-fefe53b69998)|
+|![edit-prod](https://github.com/user-attachments/assets/36df31fc-e71a-4504-ab6b-88922f8a83be)|![dash](https://github.com/user-attachments/assets/67217f46-5bbb-4f72-9266-58cc4378fafe)|![cus-info](https://github.com/user-attachments/assets/d23b86f0-cc05-4fe6-8040-a2215e502449)|
+
 
 
 ## روش نصب :
