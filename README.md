@@ -3,9 +3,9 @@
 از جمله قابلیت های این اسکریپت میتوان به امکان ثبت و نگهداری لیست محصولات، ثبت و نگهداری لیست مشتری ها یا تامین کنندگان فروشگاه، ثبت و نگهدار فاکتور های خرید و فروش محصولات به همراه قابلیت پرینت و pdf، گزارش گیری محصولات، مشتری ها و خرید و فروش و .... اشاره کرد.
 
 ## تصاویر :
-![login](https://github.com/user-attachments/assets/c6368846-e74a-44a0-afde-2e292d52d069)
-![new-invoice](https://github.com/user-attachments/assets/00f85e4b-b1c8-4721-8b97-c973178e2594)
-![reports](https://github.com/user-attachments/assets/ba87ad02-11d5-4a7d-967c-fefe53b69998)
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|![login](https://github.com/user-attachments/assets/c6368846-e74a-44a0-afde-2e292d52d069)|![new-invoice](https://github.com/user-attachments/assets/00f85e4b-b1c8-4721-8b97-c973178e2594)|![reports](https://github.com/user-attachments/assets/ba87ad02-11d5-4a7d-967c-fefe53b69998)|
 
 
 ## روش نصب :
