@@ -12,7 +12,7 @@
 ## روش نصب :
 1. آخرین نسخه فایل zip آپلود شده را از بخش release ها دانلود کنید. [[کلیک کنید]](https://github.com/MidlineGP/webinvoice/releases/latest/download/webinvoice.zip)
 2. فایل را در هاست خود در پوشه مدنظر آپلود و از حالت فشرده خارج کنید.
-3. در فایل config.php در بخش Admin Credentials نام کاربری و رمز عبور مدنظر خود را برای حساب ادمین وارد کنید (در خط 17 بجای عبارت admin نام کاربری و در خط 18 بجای عبارت admin رمز مدنظر قوی وارد کنید).
+3. در فایل config.php در بخش Admin Credentials نام کاربری و رمز عبور مدنظر خود را برای حساب ادمین وارد کنید (در [خط 17](https://github.com/MidlineGP/webinvoice/blob/main/config.php#L17) بجای عبارت admin نام کاربری و در [خط 18](https://github.com/MidlineGP/webinvoice/blob/main/config.php#L18) بجای عبارت admin رمز مدنظر قوی وارد کنید).
 4. آدرس دامنه و پوشه ی نصب اسکریپت را باز کنید، به صفحه login.php هدایت خواهید شد و امکان ورود به حساب خود را خواهید داشت.
 <br /><br />‌‌
 ## نکات مهم :
