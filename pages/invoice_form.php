@@ -40,7 +40,7 @@ $store_settings_display_inv_form = [
 ];
 $store_logo_url_invoice_form = '';
 if (!empty($store_settings_display_inv_form['store_logo']) && file_exists(UPLOAD_DIR . $store_settings_display_inv_form['store_logo'])) {
-    $store_logo_url_invoice_form = $app_base_path . '/' . UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($store_settings_display_inv_form['store_logo']) . '?t=' . time();
+    $store_logo_url_invoice_form = $app_base_path . '/' . UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($store_settings_display_inv_form['store_logo']);
 }
 
 if ($id !== null) { // Editing existing invoice

@@ -69,7 +69,7 @@ unset($_SESSION['form_data']['customer_form']); // Clear after use
 $profile_pic_url_form = 'https://placehold.co/160x160/E0E7FF/4338CA?text=' . strtoupper(mb_substr($form_values['name'] ?: 'C', 0, 1, 'UTF-8'));
 if (!empty($form_values['profile_pic']) && file_exists(UPLOAD_DIR . $form_values['profile_pic'])) {
     $profile_pic_path_form = UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($form_values['profile_pic']);
-    $profile_pic_url_form = $app_base_path . '/' . $profile_pic_path_form . '?t=' . time();
+    $profile_pic_url_form = $app_base_path . '/' . $profile_pic_path_form;
 }
 
 ?>

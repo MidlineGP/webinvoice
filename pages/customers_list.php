@@ -143,7 +143,7 @@ $customers = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                         $profile_pic_url_clist = 'https://placehold.co/40x40/E0E7FF/4338CA?text=' . strtoupper(mb_substr(htmlspecialchars($customer['name']), 0, 1, 'UTF-8'));
                                         if (!empty($customer['profile_pic']) && file_exists(UPLOAD_DIR . $customer['profile_pic'])) {
                                             $profile_pic_path_clist = UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($customer['profile_pic']);
-                                            $profile_pic_url_clist = $app_base_path . '/' . $profile_pic_path_clist . '?t=' . time();
+                                            $profile_pic_url_clist = $app_base_path . '/' . $profile_pic_path_clist;
                                         }
                                         ?>
                                         <img src="<?php echo $profile_pic_url_clist; ?>" alt="<?php echo htmlspecialchars($customer['name']); ?>" class="w-10 h-10 rounded-full object-cover ml-3.5 border-2 border-slate-200 shadow-sm"/>

@@ -28,7 +28,7 @@ $settings_data_page = [
 $current_logo_url_settings = 'https://placehold.co/128x128/E0E7FF/4338CA?text=لوگو'; 
 if (!empty($settings_data_page['store_logo']) && file_exists(UPLOAD_DIR . $settings_data_page['store_logo'])) {
     $logo_path_settings = UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($settings_data_page['store_logo']);
-    $current_logo_url_settings = $app_base_path . '/' . $logo_path_settings . '?t=' . time(); 
+    $current_logo_url_settings = $app_base_path . '/' . $logo_path_settings; 
 }
 
 // Pre-fill form from session if validation error occurred

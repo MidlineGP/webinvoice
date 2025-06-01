@@ -34,7 +34,7 @@ if (!$product) {
 $product_image_url_info = 'https://placehold.co/400x400/E0E7FF/4338CA?text=' . strtoupper(mb_substr(htmlspecialchars($product['name']), 0, 1, 'UTF-8'));
 if (!empty($product['image']) && file_exists(UPLOAD_DIR . $product['image'])) {
     $product_image_path_info = UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($product['image']);
-    $product_image_url_info = $app_base_path . '/' . $product_image_path_info . '?t=' . time();
+    $product_image_url_info = $app_base_path . '/' . $product_image_path_info;
 }
 
 ?>

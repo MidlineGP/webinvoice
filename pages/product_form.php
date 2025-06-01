@@ -80,7 +80,7 @@ if (isset($_SESSION['form_data']['product_form'])) {
 $product_image_url_form = 'https://placehold.co/300x300/E0E7FF/4338CA?text=تصویر+محصول';
 if (!empty($form_values['image']) && file_exists(UPLOAD_DIR . $form_values['image'])) {
     $product_image_path_form = UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($form_values['image']);
-    $product_image_url_form = $app_base_path . '/' . $product_image_path_form . '?t=' . time();
+    $product_image_url_form = $app_base_path . '/' . $product_image_path_form;
 }
 
 // Fetch distinct categories for datalist suggestion

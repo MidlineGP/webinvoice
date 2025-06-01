@@ -27,7 +27,7 @@ if (!isset($app_base_path)) { // Fallback if header didn't define it (e.g. direc
 
 
 if (!empty($store_logo_filename_sidebar) && file_exists(UPLOAD_DIR . $store_logo_filename_sidebar)) {
-    $store_logo_url_sidebar = $app_base_path . '/' . UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($store_logo_filename_sidebar) . '?t=' . time(); // Cache busting for logo
+    $store_logo_url_sidebar = $app_base_path . '/' . UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($store_logo_filename_sidebar);
 } else {
     // Fallback text-based logo or generic icon if no image logo
 }

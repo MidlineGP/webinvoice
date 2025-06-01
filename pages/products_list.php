@@ -168,7 +168,7 @@ $distinct_categories = $categories_stmt->fetchAll(PDO::FETCH_COLUMN);
                                         $product_image_url_list_prod = 'https://placehold.co/40x40/E0E7FF/4338CA?text=P';
                                         if (!empty($product['image']) && file_exists(UPLOAD_DIR . $product['image'])) {
                                             $product_image_path_list_prod = UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($product['image']);
-                                            $product_image_url_list_prod = $app_base_path . '/' . $product_image_path_list_prod . '?t=' . time();
+                                            $product_image_url_list_prod = $app_base_path . '/' . $product_image_path_list_prod;
                                         }
                                         ?>
                                         <img src="<?php echo $product_image_url_list_prod; ?>" alt="<?php echo htmlspecialchars($product['name']); ?>" class="w-10 h-10 rounded-md object-cover ml-3.5 border border-slate-200 shadow-sm"/>

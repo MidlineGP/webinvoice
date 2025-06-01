@@ -56,7 +56,7 @@ $store_settings_display_details = [
 ];
 $store_logo_url_details_page = '';
 if (!empty($store_settings_display_details['store_logo']) && file_exists(UPLOAD_DIR . $store_settings_display_details['store_logo'])) {
-    $store_logo_url_details_page = $app_base_path . '/' . UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($store_settings_display_details['store_logo']) . '?t=' . time();
+    $store_logo_url_details_page = $app_base_path . '/' . UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($store_settings_display_details['store_logo']);
 }
 
 ?>

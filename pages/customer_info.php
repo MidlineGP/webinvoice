@@ -44,7 +44,7 @@ $customer_invoices = $stmt_invoices->fetchAll(PDO::FETCH_ASSOC);
 $profile_pic_url_info = 'https://placehold.co/128x128/E0E7FF/4338CA?text=' . strtoupper(mb_substr(htmlspecialchars($customer['name']), 0, 1, 'UTF-8'));
 if (!empty($customer['profile_pic']) && file_exists(UPLOAD_DIR . $customer['profile_pic'])) {
     $profile_pic_path_info = UPLOAD_DIR_PUBLIC_PATH . htmlspecialchars($customer['profile_pic']);
-    $profile_pic_url_info = $app_base_path . '/' . $profile_pic_path_info . '?t=' . time();
+    $profile_pic_url_info = $app_base_path . '/' . $profile_pic_path_info;
 }
 
 // Determine active tab from GET parameter, default to 'invoices'
